@@ -76,3 +76,6 @@ print("Now the list will be sorted by number of friends, most to least:")
 print(sorted(num_friends_by_id,
              key=lambda pair: pair[1],  # http://www.diveintopython.net/power_of_introspection/lambda_functions.html
              reverse=True))
+
+# What we have just computed is the network metric called degree centrality (https://en.wikipedia.org/wiki/Centrality#Degree_centrality).
+# Not a bad start, huh?
