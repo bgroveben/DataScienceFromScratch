@@ -13,4 +13,4 @@
 The code is written in Python 3.4.3, for now at least.
 
 I am here:  
-Chapter 1 pp46 "Topics of Interest"
+Chapter 1 pp50 "Chapter 2: A Crash Course in Python"
