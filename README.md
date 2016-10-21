@@ -13,4 +13,4 @@
 The code is written in Python 3.4.3, for now at least.
 
 I am here:  
-Chapter 1 pp39 "Salaries and Experience"
+Chapter 1 pp44 "Paid Accounts"
