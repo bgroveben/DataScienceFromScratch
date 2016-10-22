@@ -1,6 +1,7 @@
 # A list in Python is an ordered collection.
 # Lists in Python are similar to Arrays in other languages, but with some added functionality.
 # https://docs.python.org/2/tutorial/introduction.html#lists
+# http://www.diveintopython.net/native_data_types/lists.html
 
 integer_list = [1, 2, 3]
 list_length = len(integer_list)

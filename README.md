@@ -13,4 +13,4 @@
 The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 1 pp88 "Tuples"
+Chapter 1 pp90 "Dictionaries"
