@@ -10,7 +10,7 @@
 
 ### Confused? Running the code through the visualizer at [pythontutor.com] (http://www.pythontutor.com/visualize.html#mode=edit) helps (sometimes, anyway).
 
-The code is written in Python 3.4.3, for now at least.
+The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 1 pp50 "Chapter 2: A Crash Course in Python"
+Chapter 1 pp61 "Strings"
