@@ -14,4 +14,4 @@
 The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 2 pp125 "Functional Tools"
+Chapter 2 pp130 "enumerate"
