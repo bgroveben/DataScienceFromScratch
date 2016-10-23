@@ -14,4 +14,4 @@
 The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 2 pp110 "List Comprehensions"
+Chapter 2 pp112 "Generators and Iterators"
