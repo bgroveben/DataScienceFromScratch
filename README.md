@@ -14,4 +14,4 @@
 The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 3 -- Visualizing Data -- pp162 -- Scatterplots
+Chapter 4 -- Linear Algebra -- pp171
