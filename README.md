@@ -14,4 +14,4 @@
 The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 6 -- Probability -- Continuous Distributions -- pp 246
+Chapter 6 -- Probability -- The Normal Distribution -- pp 251
