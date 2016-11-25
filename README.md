@@ -14,4 +14,4 @@
 The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Python 3.4.3.
 
 I am here:  
-Chapter 6 -- Hypothesis and Inference -- pp 269
+Chapter 7 -- Hypothesis and Inference -- p-values -- pp 280
