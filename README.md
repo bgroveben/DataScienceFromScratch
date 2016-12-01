@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 8 -- Gradient Descent -- Stochastic Gradient Descent -- pp 331
+Chapter 9 -- Getting Data-- pp 338
