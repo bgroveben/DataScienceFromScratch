@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 9 -- Getting Data -- JSON and XML -- pp 377
+Chapter 9 -- Getting Data -- Using an Unauthenticated API -- pp 380
