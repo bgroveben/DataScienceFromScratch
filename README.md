@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 10 -- Working with Data -- Manipulating Data -- page 423
+Chapter 10 -- Working with Data -- Rescaling -- page 434
