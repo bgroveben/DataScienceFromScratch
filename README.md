@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 10 -- Working with Data -- Dimensionality Reduction -- Figure 10-7. First principal component  -- page 451
+Chapter 10 -- Working with Data -- Dimensionality Reduction -- Figure 10-8. Data after removing first principal component -- page 451
