@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 11 -- Machine Learning -- The Bias-Variance Trade-Off -- page 479
+Chapter 11 -- Machine Learning -- Feature Extraction and Selection -- page 484
