@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 13 -- Naive Bayes -- Implementation -- We can put this all together... -- page 536
+Chapter 13 -- Naive Bayes -- Testing Our Model -- page 538
