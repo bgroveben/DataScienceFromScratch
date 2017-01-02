@@ -105,4 +105,4 @@ def train_and_test_model(path):
 
 
 if __name__=="main":
-    train_and_test_model(r"c:\spam\*\*")
+    train_and_test_model(r"spam_email_data/*/*")
