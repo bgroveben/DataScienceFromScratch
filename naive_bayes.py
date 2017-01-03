@@ -58,7 +58,7 @@ class NaiveBayesClassifier:
         self.word_probs = word_probabilities(word_counts, num_spams, num_non_spams, self.k)
 
     def classify(self, message):
-        return spapm_probability(self.word_probs, message)
+        return spam_probability(self.word_probs, message)
 
 
 def get_subject_data(path):
@@ -104,5 +104,5 @@ def train_and_test_model(path):
     print "hammiest_words", hammiest_words
 
 
-if __name__=="main":
+if __name__=="__main__":
     train_and_test_model(r"spam_email_data/*/*")
