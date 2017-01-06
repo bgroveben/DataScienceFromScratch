@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 15 -- Multiple Regression -- Digression: The Bootstrap -- page 578
+Chapter 15 -- Multiple Regression -- Standard Errors of Regression Coefficients -- page 582
