@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 15 -- Multiple Regression -- Fitting the Model -- page 571
+Chapter 15 -- Multiple Regression -- Interpreting the Model -- page 574
