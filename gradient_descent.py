@@ -73,8 +73,7 @@ def minimize_batch(target_fn, gradient_fn, theta_0, tolerance=0.000001):
     value = target_fn(theta)                  # value we're minimizing
     while True:
         gradient = gradient_fn(theta)
-        next_thetas = [step(theta, gradient, -step_size)
-                       for step_size in step_sizes]
+        next_thetas = [step(theta, gradient, -step_size) for step_size in step_sizes]
         # choose the one that minimizes the error function
         next_theta = min(next_thetas, key=target_fn)
         next_value = target_fn(next_theta)

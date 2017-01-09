@@ -23,6 +23,12 @@ def scalar_multiply(c, v):
     return [c * v_i for v_i in v]
 
 
+def vector_mean(vectors):
+    """ calculate the vector whose ith element is the mean of the ith elements of the input vectors """
+    n = len(vectors)
+    return scalar_multiply(1/n, vector_sum(vectors))
+
+
 def dot(v, w):
     """ dot product  v_1 * w_1 + ... + v_n * w_n """
     return sum(v_i * w_i for v_i, w_i, in zip(v, w))
