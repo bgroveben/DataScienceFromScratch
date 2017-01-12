@@ -25,11 +25,13 @@ def logistic_log_likelihood_i(x_i, y_i, beta):
 
 
 def logistic_log_likelihood(x, y, beta):
-    return sum(logistic_log_likelihood_i(x_i, y_i, beta) for x_i, y_i in zip(x, y))
-
+    return sum(logistic_log_likelihood_i(x_i, y_i, beta)
+               for x_i, y_i in zip(x, y))
 
 def logistic_log_partial_ij(x_i, y_i, beta, j):
-    """ here i is the index of the data point, j is the index of the derivative """
+    """here i is the index of the data point,
+    j the index of the derivative"""
+
     return (y_i - logistic(dot(x_i, beta))) * x_i[j]
 
 

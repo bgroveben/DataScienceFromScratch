@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 16 -- Logistic Regression -- The Problem -- page 598
+Chapter 16 -- Logistic Regression -- The Logistic Function -- page 606
