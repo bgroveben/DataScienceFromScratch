@@ -1,3 +1,8 @@
+# This code throws an error:
+# TypeError: unsupported operand type(s) for -: 'list' and 'float'
+# and I haven't been able to figure out how to fix it.
+# The author's source is at https://github.com/joelgrus/data-science-from-scratch/blob/master/code/logistic_regression.py
+
 from __future__ import division
 from collections import Counter
 from functools import partial  # https://www.pydanny.com/python-partials-are-fun.html
