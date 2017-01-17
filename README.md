@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 17 -- Decision Trees -- The Entropy of a Partition -- page 641
+Chapter 17 -- Decision Trees -- Creating a Decision Tree -- page 646
