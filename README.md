@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 18 -- Neural Networks -- pp 668
+Chapter 18 -- Neural Networks -- Perceptrons -- pp 669
