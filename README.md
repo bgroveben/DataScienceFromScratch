@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 18 -- Neural Networks -- Example: Defeating a CAPTCHA -- Having a larger training set would probably help -- pp 696
+Chapter 19 -- Clustering -- pp 707
