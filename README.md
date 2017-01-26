@@ -6,7 +6,7 @@
 ### Copyright 2015 Joel Grus, 978-1-4919-0142-7
 
 
-### Sources that have proven useful for quick reference are [How to Think Like a Computer Scientist: Learning with Python 3] (http://openbookproject.net/thinkcs/python/english3e/index.html) as well as [Dive Into Python] (http://www.diveintopython.net/toc/index.html).
+### Sources that have proven useful for quick reference are [How to Think Like a Computer Scientist: Learning with Python] (http://www.openbookproject.net/thinkcs/python/english2e/) as well as [Dive Into Python] (http://www.diveintopython.net/toc/index.html).
 
 ### Confused? Running the code through the visualizer at [pythontutor.com] (http://www.pythontutor.com/visualize.html#mode=edit) helps (sometimes, anyway).  
 
@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 19 -- Clustering -- The Model -- pp 709
+Chapter 19 -- Clustering -- Example: Meetups -- pp 714

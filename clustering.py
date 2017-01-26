@@ -27,8 +27,9 @@ class KMeans:
                 return
             # otherwise keep the new assignments
             assignments = new_assignments
-
+            # and calculate new means based on the new assignments
             for i in range(self.k):
+                # find all of the points assigned to cluster i
                 i_points = [p for p, a in zip(inputs, assignments) if a == i]
                 # if i_points is empty, do NOT divide by zero
                 if i_points:
