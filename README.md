@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 19 -- Clustering -- Example: Meetups -- pp 714
+Chapter 19 -- Clustering -- Choosing k -- pp 721

@@ -36,7 +36,7 @@ class KMeans:
                     self.means[i] = vector_mean(i_points)
 
 
-def squared_clustering_errors(inouts, k):
+def squared_clustering_errors(inputs, k):
     """ finds the total squared error from k-means clustering the inputs """
     clusterer = KMeans(k)
     clusterer.train(inputs)
