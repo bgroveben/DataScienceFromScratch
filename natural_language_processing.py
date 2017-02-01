@@ -75,8 +75,8 @@ def generate_using_trigrams(starts, trigram_transitions):
     result = [current]
     while True:
         next_word_candidates = trigram_transitions[(prev, current)]
-        next = random.choice(next_word_candidates)
-        prev, current = current, next
+        next_word = random.choice(next_word_candidates)
+        prev, current = current, next_word
         result.append(current)
         if current == ".":
             return " ".join(result)
