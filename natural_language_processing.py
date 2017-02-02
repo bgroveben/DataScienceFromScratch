@@ -98,7 +98,7 @@ def expand(grammar, tokens):
         else:
             tokens = tokens[:i] + replacement.split() + tokens[(i+1):]
         return expand(grammar, tokens)
-    # if we reach this point we have gone through all of the terminals and are done
+    # if we reach this point we have all terminals and are done
     return tokens
 
 
