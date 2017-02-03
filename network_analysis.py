@@ -39,39 +39,49 @@ for i, j in friendships:
 ##
 
 def shortest_paths_from(from_user):
+
     # a dictionary from "user_id" to *all* shortest paths to that user
     shortest_paths_to = { from_user["id"] : [[]] }
-    # a queue of (previous_user, next_user) that we need to check.
-    # the queue starts out with all pairs (from_user, friend_of_from_user)
+
+    # a queue of (previous user, next user) that we need to check.
+    # starts out with all pairs (from_user, friend_of_from_user)
     frontier = deque((from_user, friend)
-                      for friend in from_user["friends"])
+                     for friend in from_user["friends"])
+
     # keep going until we empty the queue
     while frontier:
-        prev_user, user = frontier.popleft()  # take from the beginning
+
+        prev_user, user = frontier.popleft() # take from the beginning
         user_id = user["id"]
+
         # the fact that we're pulling from our queue means that
         # necessarily we already know a shortest path to prev_user
         paths_to_prev = shortest_paths_to[prev_user["id"]]
         paths_via_prev = [path + [user_id] for path in paths_to_prev]
-        # it's possible that we already know a shortest path here as well
+
+        # it's possible we already know a shortest path to here as well
         old_paths_to_here = shortest_paths_to.get(user_id, [])
-        # what's the shortest path to here that we've seen so far
+
+        # what's the shortest path to here that we've seen so far?
         if old_paths_to_here:
             min_path_length = len(old_paths_to_here[0])
         else:
             min_path_length = float('inf')
+
         # any new paths to here that aren't too long
         new_paths_to_here = [path_via_prev
                              for path_via_prev in paths_via_prev
                              if len(path_via_prev) <= min_path_length
                              and path_via_prev not in old_paths_to_here]
+
         shortest_paths_to[user_id] = old_paths_to_here + new_paths_to_here
+
         # add new neighbors to the frontier
         frontier.extend((user, friend)
-                         for friend in user["friends"]
-                         if friend["id"] not in shortest_paths_to)
-    return shortest_paths_to
+                        for friend in user["friends"]
+                        if friend["id"] not in shortest_paths_to)
 
+    return shortest_paths_to
 
 for user in users:
     user["shortest_paths"] = shortest_paths_from(user)
