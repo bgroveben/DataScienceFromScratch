@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 20 -- Natural Language Processing -- Topic Modeling -- pp 777
+Chapter 21 -- Network Analysis -- pp 797
