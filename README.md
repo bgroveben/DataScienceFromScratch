@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 21 -- Network Analysis -- Eigenvector Centrality -- Centrality -- pp 822
+Chapter 21 -- Network Analysis -- Directed Graphs and PageRank -- pp 828
