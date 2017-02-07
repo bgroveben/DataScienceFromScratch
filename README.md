@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 22 -- Recommender Systems -- pp 837
+Chapter 22 -- Recommender Systems -- Recommending What's Popular -- pp 840
