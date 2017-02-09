@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 22 -- Recommender Systems -- User-Based Collaborative Filtering -- pp 844
+Chapter 22 -- Recommender Systems -- Item-Based Collaborative Filtering -- pp 855
