@@ -83,7 +83,8 @@ class Table:
         for row in self.rows:
             key = tuple(row[column] for column in group_by_columns)
             grouped_rows[key].append(row)
-
+            
+        # result table consists of group_by columns and aggregates
         result_table = Table(group_by_columns + aggregates.keys())
 
         for key, rows in grouped_rows.iteritems():
