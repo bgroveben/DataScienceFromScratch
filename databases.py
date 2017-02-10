@@ -16,9 +16,9 @@ class Table:
         return str(self.columns) + "\n" + "\n".join(map(str, self.rows))
 
 
-    def __getitem__(self, i):
-        """ return row for specified user: users[i] """
-        return self.rows[i]
+    def __getitem__(self, user):
+        """ return row for specified user: users[user] """
+        return self.rows[user]
 
 
     def insert(self, row_values):
