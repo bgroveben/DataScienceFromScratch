@@ -15,4 +15,4 @@ The code is written in Python 2.7.12, EXCEPT for Chapter 1, which I did in Pytho
 
 I am here:  
 
-Chapter 24 -- MapReduce -- MapReduce More Generally -- pp 916
+Chapter 24 -- MapReduce -- Example: Analyzing Status Updates -- pp 919
