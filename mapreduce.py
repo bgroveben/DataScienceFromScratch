@@ -81,14 +81,19 @@ status_updates = [
       "liked_by": ["some_guy", "some_gal", "cousin_tavo"] },
     { "id": 2,
       "username": "cousin_tavo",
-      "text": "Yo, user bgroveben has very little respect for grammar!",
+      "text": "Yo, user bgroveben has very little respect for data science or grammar!",
       "created_at": datetime.datetime(2017, 2, 16, 4, 30, 0),
       "liked_by": ["some_guy", "some_gal", "bgroveben"] },
     { "id": 3,
       "username": "some_gal",
-      "text": "Yo, stop worrying about petty things and focus on the task at hand, people.",
+      "text": "Yo, stop worrying about petty things and focus on the data science stuff, people.",
       "created_at": datetime.datetime(2017, 2, 17, 5, 15, 0),
-      "liked_by": ["some_guy", "bgroveben", "cousin_tavo"] }
+      "liked_by": ["some_guy", "bgroveben", "cousin_tavo"] },
+    { "id": 4,
+      "username": "some_guy",
+      "text": "Big data, big data, data science, data science, data, data.",
+      "created_at": datetime.datetime(2017, 2, 17, 10, 45, 0),
+      "liked_by": ["some_gal", "bgroveben", "cousin_tavo"] }
 ]
 
 
